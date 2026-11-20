@@ -332,7 +332,7 @@ export const layers: Layer[] = [
  {
   "id": 261,
   "name": "cover vdeogames sans la cover",
-  "x": -25.8,
+  "x": 54.0,
   "y": 862.0,
   "w": 1601.8,
   "h": 1601.8,
