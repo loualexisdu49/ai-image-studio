@@ -153,3 +153,10 @@
     color: var(--color-foreground);
   }
 }
+
+:root {
+  --glitch-white: oklch(1 0 0);
+  --glitch-gray: oklch(0.72 0 0);
+  --glitch-green: oklch(0.78 0.2 135);
+  --glitch-black: oklch(0 0 0);
+}

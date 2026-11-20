@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type CSSProperties } from "react";
+import { GlitchBand } from "@/components/GlitchBand";
+import { Fragment } from "react";
 import { CANVAS, USER_WINDOW_TEXT, layers, type Layer } from "@/lib/portfolio-layers";
 
 export const Route = createFileRoute("/")({
@@ -65,7 +67,12 @@ function Index() {
         className="relative origin-top-left overflow-hidden"
         style={{ width: CANVAS.width, height: CANVAS.height, transform: `scale(${scale})` }}
       >
-        {layers.map((l, i) => <LayerView key={`${l.id}-${i}`} l={l} />)}
+        {layers.map((l, i) => (
+          <Fragment key={`${l.id}-${i}`}>
+            <LayerView l={l} />
+            {l.kind === "rect" && l.name === "Quote" && <GlitchBand top={1396} height={180} />}
+          </Fragment>
+        ))}
       </div>
     </main>
   );

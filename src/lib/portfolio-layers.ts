@@ -17,7 +17,6 @@ import img_image_user_1 from "@/assets/portfolio/image-user-1.png.asset.json";
 import img_img_20230803_185539_038_1 from "@/assets/portfolio/img-20230803-185539-038-1.png.asset.json";
 import img_large_screen_player_1 from "@/assets/portfolio/large-screen-player-1.png.asset.json";
 import img_large_screen_player_2 from "@/assets/portfolio/large-screen-player-2.png.asset.json";
-import img_monster_logo_1 from "@/assets/portfolio/monster-logo-1.png.asset.json";
 import img_pasted_image_1 from "@/assets/portfolio/pasted-image-1.png.asset.json";
 import img_pasted_image_2 from "@/assets/portfolio/pasted-image-2.png.asset.json";
 import img_pasted_image_3 from "@/assets/portfolio/pasted-image-3.png.asset.json";
@@ -26,7 +25,7 @@ import img_pasted_image_5 from "@/assets/portfolio/pasted-image-5.png.asset.json
 import img_pasted_image_6 from "@/assets/portfolio/pasted-image-6.png.asset.json";
 import img_pasted_image_7 from "@/assets/portfolio/pasted-image-7.png.asset.json";
 import img_pasted_image_8 from "@/assets/portfolio/pasted-image-8.png.asset.json";
-import img_quote_1 from "@/assets/portfolio/quote-1.png.asset.json";
+import img_fond_nuit from "@/assets/portfolio/fond-nuit-complet.png.asset.json";
 
 export type Layer = {
   id: number; name: string; x: number; y: number; w: number; h: number;
@@ -342,35 +341,6 @@ export const layers: Layer[] = [
   "src": img_cover_vdeogames_sans_la_cover_1.url
  },
  {
-  "id": 226,
-  "name": "monster logo",
-  "x": 78.5,
-  "y": 1490.0,
-  "w": 1361.5,
-  "h": 31.7,
-  "flipY": true,
-  "kind": "image",
-  "file": "monster-logo-1.png",
-  "src": img_monster_logo_1.url
- },
- {
-  "id": 193,
-  "name": "Lou-Alexis Cosnard",
-  "x": 148.0,
-  "y": 1437.0,
-  "w": 516.0,
-  "h": 57.0,
-  "opacity": 0.27,
-  "kind": "text",
-  "text": "Lou-Alexis Cosnard",
-  "font": "Inter",
-  "weight": "Bold",
-  "size": 64.0,
-  "lineHeight": 72.0,
-  "color": "rgba(3,12,9,1.0)",
-  "align": null
- },
- {
   "id": 244,
   "name": "2211.i309.047.P.m012.c33.old program windows set",
   "x": 945.0,
@@ -443,8 +413,8 @@ export const layers: Layer[] = [
   "w": 1440.0,
   "h": 780.5,
   "kind": "image",
-  "file": "quote-1.png", "stretch": true,
-  "src": img_quote_1.url
+  "file": "fond-nuit-complet.png", "stretch": true,
+  "src": img_fond_nuit.url
  },
  {
   "id": 262,
